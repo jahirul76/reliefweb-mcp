@@ -40,9 +40,10 @@ def make_queryapi(query: str, country_name: str, start_date: str) -> str :
 def parse_result_getdocs(result: str) -> list:
     json_result = json.loads(result)
 
+    documents: list= []    
     if "data" in json_result : 
         disasters = json_result["data"]
-        documents: list= []
+        
         for disaster in disasters :
             documents.append(disaster.get("href"))
 
