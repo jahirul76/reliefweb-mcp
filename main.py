@@ -148,12 +148,9 @@ def main():
         exit(1)
 
     # Initialise and run the server
-    # mcp.run(transport="http", port=8000)
+    mcp.run(transport="stdio")
 
-
-    result = asyncio.run(search_disasters("", "Sudan", "2024-11-01"))
-    print (result)
-    
+ 
     # result = asyncio.run(search_reports("earthquake", "Sudan", "2023-01-01"))
     # print (result)
 
