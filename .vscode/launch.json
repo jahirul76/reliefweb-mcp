@@ -13,7 +13,7 @@
             "program": "main.py",
             "console": "integratedTerminal",
             "env": {
-                "appname": "dickens-mercycore-Ihk7EE4"
+                "appname": ""
             }
         },
         {
@@ -23,7 +23,7 @@
             "program": "main.py",
             "console": "integratedTerminal",
             "env": {
-                "appname": "dickens-mercycore-Ihk7EE4"
+                "appname": ""
             }
         }
     ]
