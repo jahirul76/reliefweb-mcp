@@ -9,8 +9,8 @@ import logging
 import asyncio
 
 # constants
-# API_BASE_URL = 'https://api.reliefweb.int/v2'
-API_BASE_URL = "http://localhost:8080/v2"
+API_BASE_URL = 'https://api.reliefweb.int/v2'
+# API_BASE_URL = "http://localhost:8080/v2"
 
 # Initialise FastMCP server
 mcp = FastMCP("reliefweb")
