@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "search_reports": {
+      "type": "http",
+      "url": "http://127.0.0.1:8000/mcp"
+    },
+    "search_disasters": {
+      "type": "http",
+      "url": "http://127.0.0.1:8000/mcp"
+    }
+  }
+}
